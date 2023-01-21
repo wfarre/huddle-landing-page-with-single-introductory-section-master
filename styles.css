@@ -16,10 +16,12 @@ body {
     background-size:contain;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
 }
 
 @media all and (min-width: 520px) {
-    
     html {
         font-size: 24px;
     }
@@ -112,6 +114,8 @@ p {
     font-size: 1.38rem; */
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
+    
+    font-weight: 700;
 
     /* margin: 0; */
 }
@@ -203,7 +207,9 @@ p {
     }
 
     .hero__details {
+        margin-top: 3.56rem;
         width: 45%;
+        align-self: flex-start;
     }
 
     .hero__details__header {
@@ -220,14 +226,18 @@ p {
 
     .hero .image {
         height: 31.25rem;
-        /* height: auto; */
-        width: 55%;
-        /* width: 43.75rem; */
+        width: 63%;
+    }
+
+    .btn{
+        width: 12.5rem;
+        height: 3.56rem;
     }
 
     .btn--sns {
         height: 2.5rem;
         width: 2.5rem;
+        text-decoration: none;
     }
 
     i {
